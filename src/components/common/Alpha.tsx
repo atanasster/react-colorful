@@ -6,9 +6,8 @@ import { Pointer } from "./Pointer";
 import { hsvaToHslaString } from "../../utils/convert";
 import { formatClassName } from "../../utils/format";
 import { clamp } from "../../utils/clamp";
+import { round } from "../../utils/round";
 import { HsvaColor } from "../../types";
-
-import styles from "../../css/styles.css";
 
 interface Props {
   className?: string;
@@ -35,25 +34,22 @@ export const Alpha = ({ className, hsva, onChange }: Props): JSX.Element => {
     backgroundImage: `linear-gradient(90deg, ${colorFrom}, ${colorTo})`,
   };
 
-  const nodeClassName = formatClassName([
-    "react-colorful__alpha",
-    styles.alpha,
-    styles.alphaPattern,
-    className,
-  ]);
-
-  const pointerClassName = formatClassName(["react-colorful__alpha-pointer", styles.alphaPattern]);
+  const nodeClassName = formatClassName(["react-colorful__alpha", className]);
 
   return (
     <div className={nodeClassName}>
-      <div className={styles.alphaGradient} style={gradientStyle} />
+      <div className="react-colorful__alpha-gradient" style={gradientStyle} />
       <Interactive
         onMove={handleMove}
         onKey={handleKey}
         aria-label="Alpha"
-        aria-valuetext={`${Math.round(hsva.a * 100)}%`}
+        aria-valuetext={`${round(hsva.a * 100)}%`}
       >
-        <Pointer className={pointerClassName} left={hsva.a} color={hsvaToHslaString(hsva)} />
+        <Pointer
+          className="react-colorful__alpha-pointer"
+          left={hsva.a}
+          color={hsvaToHslaString(hsva)}
+        />
       </Interactive>
     </div>
   );

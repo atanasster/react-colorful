@@ -6,8 +6,7 @@ import { Pointer } from "./Pointer";
 import { hsvaToHslString } from "../../utils/convert";
 import { formatClassName } from "../../utils/format";
 import { clamp } from "../../utils/clamp";
-
-import styles from "../../css/styles.css";
+import { round } from "../../utils/round";
 
 interface Props {
   className?: string;
@@ -27,7 +26,7 @@ const HueBase = ({ className, hue, onChange }: Props) => {
     });
   };
 
-  const nodeClassName = formatClassName(["react-colorful__hue", styles.hue, className]);
+  const nodeClassName = formatClassName(["react-colorful__hue", className]);
 
   return (
     <div className={nodeClassName}>
@@ -35,7 +34,7 @@ const HueBase = ({ className, hue, onChange }: Props) => {
         onMove={handleMove}
         onKey={handleKey}
         aria-label="Hue"
-        aria-valuetext={Math.round(hue)}
+        aria-valuetext={round(hue)}
       >
         <Pointer
           className="react-colorful__hue-pointer"
