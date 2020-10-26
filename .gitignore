@@ -20,3 +20,6 @@ dist/
 # OSX
 .DS_Store
 .LSOverride
+
+# gatsby
+public
