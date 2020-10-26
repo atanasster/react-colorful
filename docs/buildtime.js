@@ -11,12 +11,5 @@ module.exports = {
         story: {
             tabs: [{ route: 'page' }, { route: 'test' }],
         },
-    },
-    loaders: {
-        'css-loader': {
-            modules: {
-                localIdentName: "[name]__[local]__[hash:base64:5]",
-            },	    
-        }
-    }    
+    },    
 };
