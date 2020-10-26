@@ -3,25 +3,25 @@
 exports[`Common/Alpha Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S"
+    class="react-colorful__alpha"
   >
     <div
-      class="styles__alphaGradient__3AoPw"
+      class="react-colorful__alpha-gradient"
     />
     <div
       aria-label="Alpha"
       aria-valuetext="20%"
-      class="styles__interactive__2Nfhm"
+      class="react-colorful__interactive"
       role="slider"
       tabindex="0"
     >
       <div
-        class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+        class="react-colorful__pointer react-colorful__alpha-pointer"
         style="top: 50%; left: 20%;"
       >
         <div
-          class="styles__pointerFill__2AoBD"
-          style="background-color: rgba(63, 63, 63, 0.2);"
+          class="react-colorful__pointer-fill"
+          style="background-color: rgba(65, 65, 65, 0.2);"
         />
       </div>
     </div>
@@ -39,71 +39,71 @@ exports[`Common/Alpha Overview 1`] = `
 exports[`Common/AlphaColorPicker Hex 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 69%, Brightness 87%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 13%; left: 69%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(65, 65, 65);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(69, 69, 69);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="353"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 98.05555555555556%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="100%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 100%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(65, 65, 65);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(69, 69, 69);"
           />
         </div>
       </div>
@@ -120,70 +120,70 @@ exports[`Common/AlphaColorPicker Hex 1`] = `
 exports[`Common/AlphaColorPicker Rgba 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 89%, Brightness 75%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 25%; left: 89%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(21, 21, 21);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="287"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 79.72222222222223%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="50%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 50%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgba(21, 21, 21, 0.5);"
           />
         </div>
@@ -206,46 +206,46 @@ exports[`Common/AlphaColorPicker Rgba 1`] = `
 exports[`Common/ColorPicker Hex 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 69%, Brightness 87%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 13%; left: 69%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(65, 65, 65);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(69, 69, 69);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="353"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 98.05555555555556%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
@@ -263,46 +263,46 @@ exports[`Common/ColorPicker Hex 1`] = `
 exports[`Common/ColorPicker Rgb 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 89%, Brightness 75%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 25%; left: 89%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(21, 21, 21);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="287"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 79.72222222222223%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
@@ -324,21 +324,21 @@ exports[`Common/ColorPicker Rgb 1`] = `
 exports[`Common/Hue Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful__hue styles__hue__3W-TD"
+    class="react-colorful__hue"
   >
     <div
       aria-label="Hue"
       aria-valuetext="213"
-      class="styles__interactive__2Nfhm"
+      class="react-colorful__interactive"
       role="slider"
       tabindex="0"
     >
       <div
-        class="react-colorful__hue-pointer styles__pointer__11B86"
+        class="react-colorful__pointer react-colorful__hue-pointer"
         style="top: 50%; left: 59.166666666666664%;"
       >
         <div
-          class="styles__pointerFill__2AoBD"
+          class="react-colorful__pointer-fill"
           style="background-color: rgb(0, 0, 0);"
         />
       </div>
@@ -357,7 +357,7 @@ exports[`Common/Hue Overview 1`] = `
 exports[`Common/Interactive Overview 1`] = `
 <DocumentFragment>
   <div
-    class="styles__interactive__2Nfhm"
+    class="react-colorful__interactive"
     role="slider"
     tabindex="0"
   >
@@ -384,12 +384,12 @@ exports[`Common/Pointer Overview 1`] = `
     style="position: relative; height: 50px;"
   >
     <div
-      class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+      class="react-colorful__pointer react-colorful__alpha-pointer"
       style="top: 50%; left: 20%;"
     >
       <div
-        class="styles__pointerFill__2AoBD"
-        style="background-color: rgba(63, 63, 63, 0.2);"
+        class="react-colorful__pointer-fill"
+        style="background-color: rgba(65, 65, 65, 0.2);"
       />
     </div>
   </div>
@@ -409,23 +409,23 @@ exports[`Common/Pointer Overview 1`] = `
 exports[`Common/Saturation Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful__saturation styles__saturation__3SLZ3"
+    class="react-colorful__saturation"
     style="background-color: rgb(0, 0, 0);"
   >
     <div
       aria-label="Color"
       aria-valuetext="Saturation 50%, Brightness 50%"
-      class="styles__interactive__2Nfhm"
+      class="react-colorful__interactive"
       role="slider"
       tabindex="0"
     >
       <div
-        class="react-colorful__saturation-pointer styles__pointer__11B86"
+        class="react-colorful__pointer react-colorful__saturation-pointer"
         style="top: 50%; left: 50%;"
       >
         <div
-          class="styles__pointerFill__2AoBD"
-          style="background-color: rgb(63, 63, 63);"
+          class="react-colorful__pointer-fill"
+          style="background-color: rgb(65, 65, 65);"
         />
       </div>
     </div>
@@ -444,46 +444,46 @@ exports[`Common/Saturation Overview 1`] = `
 exports[`Components/HexColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(255, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 100%, Brightness 60%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 40%; left: 100%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(153, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="0"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 0%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(255, 0, 0);"
           />
         </div>
@@ -501,46 +501,46 @@ exports[`Components/HexColorPicker Overview 1`] = `
 exports[`Components/HslColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 67%, Brightness 24%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 76%; left: 66.66666666666666%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(21, 21, 21);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(20, 20, 20);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="213"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 59.166666666666664%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
@@ -562,46 +562,46 @@ exports[`Components/HslColorPicker Overview 1`] = `
 exports[`Components/HslStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(255, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 0%, Brightness 0%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 100%; left: 0%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="0"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 0%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(255, 0, 0);"
           />
         </div>
@@ -619,71 +619,71 @@ exports[`Components/HslStringColorPicker Overview 1`] = `
 exports[`Components/HslaColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 67%, Brightness 24%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 76%; left: 66.66666666666666%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(21, 21, 21);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(20, 20, 20);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="213"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 59.166666666666664%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="50%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 50%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgba(21, 21, 21, 0.5);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgba(20, 20, 20, 0.5);"
           />
         </div>
       </div>
@@ -705,70 +705,70 @@ exports[`Components/HslaColorPicker Overview 1`] = `
 exports[`Components/HslaStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(255, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 0%, Brightness 0%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 100%; left: 0%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="0"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 0%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(255, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="100%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 100%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
@@ -786,46 +786,46 @@ exports[`Components/HslaStringColorPicker Overview 1`] = `
 exports[`Components/HsvColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 50%, Brightness 50%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 50%; left: 50%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(63, 63, 63);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(65, 65, 65);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="213"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 59.166666666666664%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
@@ -847,46 +847,46 @@ exports[`Components/HsvColorPicker Overview 1`] = `
 exports[`Components/HsvStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(255, 255, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 96%, Brightness 97%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 3.0000000000000027%; left: 96%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(246, 246, 9);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(247, 247, 8);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="1"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 0.2777777777777778%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(255, 255, 0);"
           />
         </div>
@@ -904,71 +904,71 @@ exports[`Components/HsvStringColorPicker Overview 1`] = `
 exports[`Components/HsvaColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 50%, Brightness 50%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 50%; left: 50%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(63, 63, 63);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(65, 65, 65);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="213"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 59.166666666666664%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="20%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 20%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgba(63, 63, 63, 0.2);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgba(65, 65, 65, 0.2);"
           />
         </div>
       </div>
@@ -990,71 +990,71 @@ exports[`Components/HsvaColorPicker Overview 1`] = `
 exports[`Components/HsvaStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(255, 255, 0);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 96%, Brightness 97%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 3.0000000000000027%; left: 96%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgb(246, 246, 9);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgb(247, 247, 8);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="1"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 0.2777777777777778%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(255, 255, 0);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="20%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 20%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
-            style="background-color: rgba(246, 246, 9, 0.2);"
+            class="react-colorful__pointer-fill"
+            style="background-color: rgba(247, 247, 8, 0.2);"
           />
         </div>
       </div>
@@ -1071,46 +1071,46 @@ exports[`Components/HsvaStringColorPicker Overview 1`] = `
 exports[`Components/RgbColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 255);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 92%, Brightness 84%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 16.000000000000004%; left: 92%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(17, 17, 212);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="10"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 2.7777777777777777%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 255);"
           />
         </div>
@@ -1132,46 +1132,46 @@ exports[`Components/RgbColorPicker Overview 1`] = `
 exports[`Components/RgbStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 255);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 92%, Brightness 84%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 16.000000000000004%; left: 92%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(17, 17, 212);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD styles__lastControl__3o9m4"
+      class="react-colorful__hue react-colorful__last-control"
     >
       <div
         aria-label="Hue"
         aria-valuetext="10"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 2.7777777777777777%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 255);"
           />
         </div>
@@ -1189,70 +1189,70 @@ exports[`Components/RgbStringColorPicker Overview 1`] = `
 exports[`Components/RgbaColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 255);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 92%, Brightness 84%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 16.000000000000004%; left: 92%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(17, 17, 212);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="10"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 2.7777777777777777%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 255);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="20%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 20%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgba(17, 17, 212, 0.2);"
           />
         </div>
@@ -1275,70 +1275,70 @@ exports[`Components/RgbaColorPicker Overview 1`] = `
 exports[`Components/RgbaStringColorPicker Overview 1`] = `
 <DocumentFragment>
   <div
-    class="react-colorful styles__container__1NaH3"
+    class="react-colorful"
   >
     <div
-      class="react-colorful__saturation styles__saturation__3SLZ3"
+      class="react-colorful__saturation"
       style="background-color: rgb(0, 0, 255);"
     >
       <div
         aria-label="Color"
         aria-valuetext="Saturation 92%, Brightness 84%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__saturation-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__saturation-pointer"
           style="top: 16.000000000000004%; left: 92%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(17, 17, 212);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__hue styles__hue__3W-TD"
+      class="react-colorful__hue"
     >
       <div
         aria-label="Hue"
         aria-valuetext="10"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__hue-pointer styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__hue-pointer"
           style="top: 50%; left: 2.7777777777777777%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgb(0, 0, 255);"
           />
         </div>
       </div>
     </div>
     <div
-      class="react-colorful__alpha styles__alpha__XYqa4 styles__alphaPattern__wln2S styles__lastControl__3o9m4"
+      class="react-colorful__alpha react-colorful__last-control"
     >
       <div
-        class="styles__alphaGradient__3AoPw"
+        class="react-colorful__alpha-gradient"
       />
       <div
         aria-label="Alpha"
         aria-valuetext="20%"
-        class="styles__interactive__2Nfhm"
+        class="react-colorful__interactive"
         role="slider"
         tabindex="0"
       >
         <div
-          class="react-colorful__alpha-pointer styles__alphaPattern__wln2S styles__pointer__11B86"
+          class="react-colorful__pointer react-colorful__alpha-pointer"
           style="top: 50%; left: 20%;"
         >
           <div
-            class="styles__pointerFill__2AoBD"
+            class="react-colorful__pointer-fill"
             style="background-color: rgba(17, 17, 212, 0.2);"
           />
         </div>
