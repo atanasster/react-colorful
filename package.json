@@ -152,10 +152,10 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@component-controls/axe-plugin": "^1.36.5",
-    "@component-controls/gatsby-theme-stories": "^1.36.5",
-    "@component-controls/jest-snapshots": "^1.36.5",
-    "@component-controls/viewport-plugin": "^1.36.5",
+    "@component-controls/axe-plugin": "^1.36.6",
+    "@component-controls/gatsby-theme-stories": "^1.36.6",
+    "@component-controls/jest-snapshots": "^1.36.6",
+    "@component-controls/viewport-plugin": "^1.36.6",
     "@size-limit/preset-small-lib": "^4.6.2",
     "@testing-library/react": "^11.1.0",
     "@types/jest": "^26.0.10",
@@ -188,10 +188,6 @@
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7",
     "use-throttled-effect": "0.0.7"
-  },
-  "resolutions": {
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
   },
   "dependencies": {}
 }
