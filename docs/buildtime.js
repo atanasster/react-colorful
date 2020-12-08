@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ["./src/**/*.@(mdx|tsx)"],
+  stories: ["./mdx/*.mdx", "./src/**/*.@(mdx|tsx)"],
   siteUrl: `https://omgovich.github.io/react-colorful/`,
   pages: {
     story: {
