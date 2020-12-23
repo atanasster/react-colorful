@@ -152,11 +152,11 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@component-controls/addon-stats": "^2.2.4",
-    "@component-controls/axe-plugin": "^2.2.4",
-    "@component-controls/gatsby-theme-stories": "^2.2.4",
-    "@component-controls/jest-snapshots": "^2.2.4",
-    "@component-controls/viewport-plugin": "^2.2.4",
+    "@component-controls/addon-stats": "^2.3.0",
+    "@component-controls/axe-plugin": "^2.3.0",
+    "@component-controls/gatsby-theme-stories": "^2.3.0",
+    "@component-controls/jest-snapshots": "^2.3.0",
+    "@component-controls/viewport-plugin": "^2.3.0",
     "@size-limit/preset-small-lib": "^4.6.2",
     "@testing-library/react": "^11.1.0",
     "@types/jest": "^26.0.10",
