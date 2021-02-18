@@ -8,14 +8,14 @@
   <a href="https://npmjs.org/package/react-colorful">
     <img alt="npm" src="https://img.shields.io/npm/v/react-colorful.svg?labelColor=da248d&color=6ead0a" />
   </a>
-  <a href="https://travis-ci.org/omgovich/react-colorful">
-    <img alt="build" src="https://img.shields.io/travis/omgovich/react-colorful/master.svg?branch=master&labelColor=da248d&color=6ead0a" />
+  <a href="https://github.com/omgovich/react-colorful/actions">
+    <img alt="build" src="https://img.shields.io/github/workflow/status/omgovich/react-colorful/Node.js%20CI/master.svg?labelColor=da248d&color=6ead0a" />
   </a>
   <a href="https://codecov.io/gh/omgovich/react-colorful">
     <img alt="coverage" src="https://img.shields.io/codecov/c/github/omgovich/react-colorful.svg?labelColor=da248d&color=6ead0a" />
   </a>
   <a href="https://npmjs.org/package/react-colorful">
-    <img alt="no dependencies" src="https://img.shields.io/david/omgovich/react-colorful.svg?labelColor=da248d&color=6ead0a" />
+    <img alt="no dependencies" src="https://badgen.net/bundlephobia/dependency-count/react-colorful?labelColor=da248d&color=6ead0a" />
   </a>
   <a href="https://bundlephobia.com/result?p=react-colorful">
     <img alt="tree-shakeable" src="https://badgen.net/bundlephobia/tree-shaking/react-colorful?labelColor=da248d&color=6ead0a" />
@@ -26,12 +26,12 @@
 </div>
 
 <div align="center">
-  <strong>react-colorful</strong> is a tiny color picker component for modern React apps.
+  <strong>react-colorful</strong> is a tiny color picker component for React and Preact apps.
 </div>
 
 ## Features
 
-- **Small**: Just 1,9 KB gzipped (17 times lighter than **react-color**).
+- **Small**: Just 2,5 KB gzipped (14 times lighter than **react-color**).
 - **Tree-shakeable**: Only the parts you use will be imported into your app's bundle.
 - **Fast**: Built with hooks and functional components only.
 - **Bulletproof**: Written in strict TypeScript and covered by 40+ tests.
@@ -56,7 +56,6 @@ npm install react-colorful --save
 
 ```js
 import { HexColorPicker } from "react-colorful";
-import "react-colorful/dist/index.css";
 
 const YourComponent = () => {
   const [color, setColor] = useState("#aabbcc");
@@ -93,7 +92,6 @@ We provide 12 additional color picker components for different color models, unl
 
 ```js
 import { RgbColorPicker } from "react-colorful";
-import "react-colorful/dist/index.css";
 
 const YourComponent = () => {
   const [color, setColor] = useState({ r: 50, g: 100, b: 150 });
@@ -141,7 +139,6 @@ As you probably noticed the color picker itself does not include an input field,
 
 ```js
 import { HexColorPicker, HexColorInput } from "react-colorful";
-import "react-colorful/dist/index.css";
 
 const YourComponent = () => {
   const [color, setColor] = useState("#aabbcc");
@@ -210,6 +207,15 @@ This will correct the types an allow you to use **react-colorful** along with ma
 
 </details>
 
+## Code Recipes
+
+- [Value debouncing](https://codesandbox.io/s/dgqn0?file=/src/DebouncedPicker.js)
+- [Popover picker](https://codesandbox.io/s/opmco?file=/src/PopoverPicker.js)
+- [Preset colors (color squares)](https://codesandbox.io/s/bekry?file=/src/SwatchesPicker.js)
+- [Picker that accepts any color input](https://codesandbox.io/s/6fp23?file=/src/CustomPicker.js)
+- [Text field to be able to type/copy/paste a color](https://codesandbox.io/s/0k2fx?file=/src/App.js)
+- [Custom styles and layout](https://codesandbox.io/s/mq85z?file=/src/styles.css)
+
 ## Why react-colorful?
 
 Today each dependency drags more dependencies and increases your project’s bundle size uncontrollably. But size is very important for everything that intends to work in a browser.
@@ -232,10 +238,26 @@ To show you the problem that **react-colorful** is trying to solve, we have perf
 ## Projects using react-colorful
 
 <details>
-  <summary><a href="https://resume.io">Resume.io</a> — online resume builder with over 7,800,000 users worldwide</summary>
+  <summary><a href="https://resume.io">Resume.io</a> — online resume builder with over 9,400,000 users worldwide</summary>
 
   <a href="https://resume.io/">
     <img src="demo/src/assets/resume-io.png" width="873" alt="resume.io" />
+  </a>
+</details>
+
+<details>
+  <summary><a href="https://wireflow.co/">Wireflow.co</a> — free tool for creating modern user flow prototypes</summary>
+
+  <a href="https://wireflow.co/">
+    <img src="demo/src/assets/wireflow-co.png" width="1222" alt="wireflow.co" />
+  </a>
+</details>
+
+<details>
+  <summary><a href="https://www.magicpattern.design/">MagicPattern.design</a> — unique geometric pattern generator</summary>
+
+  <a href="https://www.magicpattern.design/">
+    <img src="demo/src/assets/magicpattern-design.jpg" width="943" alt="magicpattern.design" />
   </a>
 </details>
 
@@ -259,6 +281,8 @@ Not using React or Preact? Not a problem! Check out the list of react-colorful p
 
 - **[vanilla-colorful](https://github.com/web-padawan/vanilla-colorful)** — a react-colorful reimplementation in vanilla Custom Elements, generously ported by [@web-padavan](https://github.com/web-padawan).
 
+- **[angular-colorful](https://github.com/fil0157/angular-colorful)** — a react-colorful rewritten for use with the Angular framework, lovingly ported by [@fil0157](https://github.com/fil0157).
+
 If your port is not in the list, reach us out via [GitHub issues](https://github.com/omgovich/react-colorful/issues).
 
 ## Roadmap
@@ -269,3 +293,4 @@ If your port is not in the list, reach us out via [GitHub issues](https://github
 - [x] Rewrite the codebase to TypeScript
 - [x] Alpha channel support (RGBA, HSLA and HSVA color models)
 - [x] Accessibility
+- [x] CSS-in-JS version
