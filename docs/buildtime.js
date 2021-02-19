@@ -1,4 +1,5 @@
 const { defaultBuildConfig } = require("@component-controls/core");
+require("dotenv").config();
 
 module.exports = {
   stories: ["./mdx/*.mdx", "./src/**/*.@(mdx|tsx)"],
@@ -10,5 +11,8 @@ module.exports = {
         test: "@component-controls/pages/TestingPage",
       },
     },
+  },
+  tokens: {
+    githubAccessToken: process.env.GITHUB_AUTH_TOKEN,
   },
 };

@@ -1,0 +1,17 @@
+---
+title: index
+order: -1
+---
+
+import { Catalog } from "@component-controls/addon-catalog";
+
+# Cross-usage
+
+You can view a table with the [cross-usage](/docs/internal-usage) of the included components
+
+# Components
+
+<Catalog
+  filter={({ doc }) => doc.title !== "Common/Interactive"}
+  group={({ doc }) => doc.title.split("/")[0]}
+/>
