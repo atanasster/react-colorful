@@ -150,10 +150,10 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@component-controls/addon-catalog": "^2.10.0",
-    "@component-controls/addon-stats": "^2.10.0",
-    "@component-controls/gatsby-theme-stories": "^2.10.0",
-    "@component-controls/jest-snapshots": "^2.10.0",
+    "@component-controls/addon-catalog": "^2.11.0",
+    "@component-controls/addon-stats": "^2.11.0",
+    "@component-controls/gatsby-theme-stories": "^2.11.0",
+    "@component-controls/jest-snapshots": "^2.11.0",
     "@size-limit/preset-small-lib": "^4.6.2",
     "@testing-library/react": "^11.1.0",
     "@types/jest": "^26.0.10",
