@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, ElementType } from "react";
+import { Example } from "@component-controls/core";
 import { ColorLabel } from "../../components/ColorLabel";
 import { Interactive, Interaction } from "../../../src/components/common/Interactive";
 
@@ -7,7 +8,7 @@ export default {
   component: Interactive,
 };
 
-export const overview = () => {
+export const overview: Example = () => {
   const [key, setKey] = useState<Interaction | undefined>();
   const [move, setMove] = useState<Interaction | undefined>();
   return (
