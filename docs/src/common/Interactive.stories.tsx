@@ -1,4 +1,4 @@
-import React, { useState, ElementType } from "react";
+import React, { useState } from "react";
 import { Example } from "@component-controls/core";
 import { ColorLabel } from "../../components/ColorLabel";
 import { Interactive, Interaction } from "../../../src/components/common/Interactive";
