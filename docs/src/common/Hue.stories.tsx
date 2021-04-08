@@ -8,7 +8,7 @@ export default {
   component: Hue,
 } as Document;
 
-export const overview: Example = () => {
+export const Overview: Example = () => {
   const [color, setColor] = useState({ h: 213 });
   return (
     <>

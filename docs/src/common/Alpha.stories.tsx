@@ -8,7 +8,7 @@ export default {
   component: Alpha,
 } as Document;
 
-export const overview: Example = () => {
+export const Overview: Example = () => {
   const [color, setColor] = useState({
     a: 0.2,
   });

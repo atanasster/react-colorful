@@ -1,21 +1,24 @@
-import React, { useState } from 'react';
-import { HsvColorPicker } from '../../src/components/HsvColorPicker';
-import { ColorLabel } from '../components/ColorLabel';
+import React, { useState } from "react";
+import { Document, Example } from "@component-controls/core";
+import { HsvColorPicker } from "../../src/components/HsvColorPicker";
+import { ColorLabel } from "../components/ColorLabel";
 
-export default { 
-    title: 'Components/HsvColorPicker',
-    component: HsvColorPicker,
-    order: 9,
-}
+export default {
+  title: "Components/HsvColorPicker",
+  component: HsvColorPicker,
+  order: 9,
+} as Document;
 
-export const overview = () => {
-    const [color, setColor] = useState({
-        h: 213, s: 50, v: 50
-    });
-    return (
-        <>
-            <HsvColorPicker color={color} onChange={setColor} />
-            <ColorLabel color={color} />
-        </>
-    );
-}
+export const Overview: Example = () => {
+  const [color, setColor] = useState({
+    h: 213,
+    s: 50,
+    v: 50,
+  });
+  return (
+    <>
+      <HsvColorPicker color={color} onChange={setColor} />
+      <ColorLabel color={color} />
+    </>
+  );
+};

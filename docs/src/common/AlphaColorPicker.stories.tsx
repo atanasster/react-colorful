@@ -11,7 +11,7 @@ export default {
   component: AlphaColorPicker,
 } as Document;
 
-export const hex: Example = () => {
+export const Hex: Example = () => {
   const [color, setColor] = useState("#dd4455");
   const colorModel: ColorModel<string> = {
     defaultColor: "000",
@@ -27,7 +27,7 @@ export const hex: Example = () => {
   );
 };
 
-export const rgba: Example = () => {
+export const Rgba: Example = () => {
   const [color, setColor] = useState({ r: 154, g: 22, b: 192, a: 0.5 });
   const colorModel: ColorModel<RgbaColor> = {
     defaultColor: { r: 0, g: 0, b: 0, a: 1 },

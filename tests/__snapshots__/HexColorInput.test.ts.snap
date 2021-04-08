@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HexColorInput Overview 1`] = `
+<DocumentFragment>
+  <input
+    spellcheck="false"
+    value="990000"
+  />
+</DocumentFragment>
+`;

@@ -17,7 +17,7 @@ export default {
   component: ColorPicker,
 } as Document;
 
-export const hex: Example = () => {
+export const Hex: Example = () => {
   const [color, setColor] = useState("#dd4455");
   const colorModel: ColorModel<string> = {
     defaultColor: "000",
@@ -33,7 +33,7 @@ export const hex: Example = () => {
   );
 };
 
-export const rgb: Example = () => {
+export const Rgb: Example = () => {
   const [color, setColor] = useState({ r: 154, g: 22, b: 192 });
   const colorModel: ColorModel<RgbColor> = {
     defaultColor: { r: 0, g: 0, b: 0 },
