@@ -28,7 +28,7 @@
     "deploy-demo": "npm run build-demo && gh-pages -d demo/dist",
     "build-docs": "gatsby build",
     "start-docs": "gatsby develop",
-    "test:create": "cc-cli -g story -c ./docs -o ./tests -f ts -w"
+    "test:create": "cc-cli -g doc -c ./docs -o ./tests -f ts -w"
   },
   "size-limit": [
     {
@@ -150,10 +150,10 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@component-controls/addon-catalog": "^3.8.0",
-    "@component-controls/addon-stats": "^3.8.0",
-    "@component-controls/gatsby-theme-stories": "^3.8.0",
-    "@component-controls/cc-cli": "^3.8.0",
+    "@component-controls/addon-catalog": "^3.8.3",
+    "@component-controls/addon-stats": "^3.8.3",
+    "@component-controls/gatsby-theme-stories": "^3.8.3",
+    "@component-controls/cc-cli": "^3.8.3",
     "@size-limit/preset-small-lib": "^4.6.2",
     "@testing-library/react": "^11.1.0",
     "@types/jest": "^26.0.10",
